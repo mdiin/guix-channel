@@ -24,7 +24,7 @@
               (sha256
                (base32
                 "1zjv9w5rc4h8kzgd6xrp5dq22l78dxq2c6w21b92wl6xkkw3hrax"))))
-     (inputs (list zip))
+     (native-inputs (list unzip))
      (build-system copy-build-system)
      (synopsis "Kotlin Language Server (binary distribution version)")
      (description "Implementation of the Language Server Protocol for the Kotlin language, from the binary distribution.")
